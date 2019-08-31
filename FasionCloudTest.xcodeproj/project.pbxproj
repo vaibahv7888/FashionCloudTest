@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D43B4C2E231AD2640071DBF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B4C2D231AD2640071DBF2 /* AppDelegate.swift */; };
+		D43B4C30231AD2640071DBF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B4C2F231AD2640071DBF2 /* ViewController.swift */; };
+		D43B4C33231AD2640071DBF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B4C31231AD2640071DBF2 /* Main.storyboard */; };
+		D43B4C35231AD2670071DBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43B4C34231AD2670071DBF2 /* Assets.xcassets */; };
+		D43B4C38231AD2670071DBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B4C36231AD2670071DBF2 /* LaunchScreen.storyboard */; };
+		D43B4C43231AD2670071DBF2 /* FasionCloudTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B4C42231AD2670071DBF2 /* FasionCloudTestTests.swift */; };
+		D43B4C4E231AD2670071DBF2 /* FasionCloudTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B4C4D231AD2670071DBF2 /* FasionCloudTestUITests.swift */; };
+		D43B4C5E231AD2A80071DBF2 /* mappings.csv in Resources */ = {isa = PBXBuildFile; fileRef = D43B4C5C231AD2A80071DBF2 /* mappings.csv */; };
+		D43B4C5F231AD2A80071DBF2 /* pricat.csv in Resources */ = {isa = PBXBuildFile; fileRef = D43B4C5D231AD2A80071DBF2 /* pricat.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D43B4C3F231AD2670071DBF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43B4C22231AD2640071DBF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43B4C29231AD2640071DBF2;
+			remoteInfo = FasionCloudTest;
+		};
+		D43B4C4A231AD2670071DBF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43B4C22231AD2640071DBF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43B4C29231AD2640071DBF2;
+			remoteInfo = FasionCloudTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D43B4C2A231AD2640071DBF2 /* FasionCloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FasionCloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43B4C2D231AD2640071DBF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D43B4C2F231AD2640071DBF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D43B4C32231AD2640071DBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D43B4C34231AD2670071DBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43B4C37231AD2670071DBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D43B4C39231AD2670071DBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43B4C3E231AD2670071DBF2 /* FasionCloudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FasionCloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43B4C42231AD2670071DBF2 /* FasionCloudTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasionCloudTestTests.swift; sourceTree = "<group>"; };
+		D43B4C44231AD2670071DBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43B4C49231AD2670071DBF2 /* FasionCloudTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FasionCloudTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43B4C4D231AD2670071DBF2 /* FasionCloudTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasionCloudTestUITests.swift; sourceTree = "<group>"; };
+		D43B4C4F231AD2670071DBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43B4C5C231AD2A80071DBF2 /* mappings.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mappings.csv; sourceTree = "<group>"; };
+		D43B4C5D231AD2A80071DBF2 /* pricat.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pricat.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43B4C27231AD2640071DBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B4C3B231AD2670071DBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B4C46231AD2670071DBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D43B4C21231AD2640071DBF2 = {
+			isa = PBXGroup;
+			children = (
+				D43B4C2C231AD2640071DBF2 /* FasionCloudTest */,
+				D43B4C41231AD2670071DBF2 /* FasionCloudTestTests */,
+				D43B4C4C231AD2670071DBF2 /* FasionCloudTestUITests */,
+				D43B4C2B231AD2640071DBF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D43B4C2B231AD2640071DBF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43B4C2A231AD2640071DBF2 /* FasionCloudTest.app */,
+				D43B4C3E231AD2670071DBF2 /* FasionCloudTestTests.xctest */,
+				D43B4C49231AD2670071DBF2 /* FasionCloudTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43B4C2C231AD2640071DBF2 /* FasionCloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				D43B4C5B231AD2900071DBF2 /* Resources */,
+				D43B4C2D231AD2640071DBF2 /* AppDelegate.swift */,
+				D43B4C2F231AD2640071DBF2 /* ViewController.swift */,
+				D43B4C31231AD2640071DBF2 /* Main.storyboard */,
+				D43B4C34231AD2670071DBF2 /* Assets.xcassets */,
+				D43B4C36231AD2670071DBF2 /* LaunchScreen.storyboard */,
+				D43B4C39231AD2670071DBF2 /* Info.plist */,
+			);
+			path = FasionCloudTest;
+			sourceTree = "<group>";
+		};
+		D43B4C41231AD2670071DBF2 /* FasionCloudTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D43B4C42231AD2670071DBF2 /* FasionCloudTestTests.swift */,
+				D43B4C44231AD2670071DBF2 /* Info.plist */,
+			);
+			path = FasionCloudTestTests;
+			sourceTree = "<group>";
+		};
+		D43B4C4C231AD2670071DBF2 /* FasionCloudTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D43B4C4D231AD2670071DBF2 /* FasionCloudTestUITests.swift */,
+				D43B4C4F231AD2670071DBF2 /* Info.plist */,
+			);
+			path = FasionCloudTestUITests;
+			sourceTree = "<group>";
+		};
+		D43B4C5B231AD2900071DBF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D43B4C5C231AD2A80071DBF2 /* mappings.csv */,
+				D43B4C5D231AD2A80071DBF2 /* pricat.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43B4C29231AD2640071DBF2 /* FasionCloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43B4C52231AD2670071DBF2 /* Build configuration list for PBXNativeTarget "FasionCloudTest" */;
+			buildPhases = (
+				D43B4C26231AD2640071DBF2 /* Sources */,
+				D43B4C27231AD2640071DBF2 /* Frameworks */,
+				D43B4C28231AD2640071DBF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FasionCloudTest;
+			productName = FasionCloudTest;
+			productReference = D43B4C2A231AD2640071DBF2 /* FasionCloudTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43B4C3D231AD2670071DBF2 /* FasionCloudTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43B4C55231AD2670071DBF2 /* Build configuration list for PBXNativeTarget "FasionCloudTestTests" */;
+			buildPhases = (
+				D43B4C3A231AD2670071DBF2 /* Sources */,
+				D43B4C3B231AD2670071DBF2 /* Frameworks */,
+				D43B4C3C231AD2670071DBF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43B4C40231AD2670071DBF2 /* PBXTargetDependency */,
+			);
+			name = FasionCloudTestTests;
+			productName = FasionCloudTestTests;
+			productReference = D43B4C3E231AD2670071DBF2 /* FasionCloudTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D43B4C48231AD2670071DBF2 /* FasionCloudTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43B4C58231AD2670071DBF2 /* Build configuration list for PBXNativeTarget "FasionCloudTestUITests" */;
+			buildPhases = (
+				D43B4C45231AD2670071DBF2 /* Sources */,
+				D43B4C46231AD2670071DBF2 /* Frameworks */,
+				D43B4C47231AD2670071DBF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43B4C4B231AD2670071DBF2 /* PBXTargetDependency */,
+			);
+			name = FasionCloudTestUITests;
+			productName = FasionCloudTestUITests;
+			productReference = D43B4C49231AD2670071DBF2 /* FasionCloudTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43B4C22231AD2640071DBF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Vaibhav Bangde";
+				TargetAttributes = {
+					D43B4C29231AD2640071DBF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D43B4C3D231AD2670071DBF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D43B4C29231AD2640071DBF2;
+					};
+					D43B4C48231AD2670071DBF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D43B4C29231AD2640071DBF2;
+					};
+				};
+			};
+			buildConfigurationList = D43B4C25231AD2640071DBF2 /* Build configuration list for PBXProject "FasionCloudTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43B4C21231AD2640071DBF2;
+			productRefGroup = D43B4C2B231AD2640071DBF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43B4C29231AD2640071DBF2 /* FasionCloudTest */,
+				D43B4C3D231AD2670071DBF2 /* FasionCloudTestTests */,
+				D43B4C48231AD2670071DBF2 /* FasionCloudTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43B4C28231AD2640071DBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B4C38231AD2670071DBF2 /* LaunchScreen.storyboard in Resources */,
+				D43B4C5E231AD2A80071DBF2 /* mappings.csv in Resources */,
+				D43B4C5F231AD2A80071DBF2 /* pricat.csv in Resources */,
+				D43B4C35231AD2670071DBF2 /* Assets.xcassets in Resources */,
+				D43B4C33231AD2640071DBF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B4C3C231AD2670071DBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B4C47231AD2670071DBF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43B4C26231AD2640071DBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B4C30231AD2640071DBF2 /* ViewController.swift in Sources */,
+				D43B4C2E231AD2640071DBF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B4C3A231AD2670071DBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B4C43231AD2670071DBF2 /* FasionCloudTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B4C45231AD2670071DBF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B4C4E231AD2670071DBF2 /* FasionCloudTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D43B4C40231AD2670071DBF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43B4C29231AD2640071DBF2 /* FasionCloudTest */;
+			targetProxy = D43B4C3F231AD2670071DBF2 /* PBXContainerItemProxy */;
+		};
+		D43B4C4B231AD2670071DBF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43B4C29231AD2640071DBF2 /* FasionCloudTest */;
+			targetProxy = D43B4C4A231AD2670071DBF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D43B4C31231AD2640071DBF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43B4C32231AD2640071DBF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D43B4C36231AD2670071DBF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43B4C37231AD2670071DBF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D43B4C50231AD2670071DBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D43B4C51231AD2670071DBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43B4C53231AD2670071DBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3A4J433MF;
+				INFOPLIST_FILE = FasionCloudTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vab.dev.FasionCloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D43B4C54231AD2670071DBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3A4J433MF;
+				INFOPLIST_FILE = FasionCloudTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vab.dev.FasionCloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D43B4C56231AD2670071DBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3A4J433MF;
+				INFOPLIST_FILE = FasionCloudTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vab.dev.FasionCloudTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FasionCloudTest.app/FasionCloudTest";
+			};
+			name = Debug;
+		};
+		D43B4C57231AD2670071DBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3A4J433MF;
+				INFOPLIST_FILE = FasionCloudTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vab.dev.FasionCloudTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FasionCloudTest.app/FasionCloudTest";
+			};
+			name = Release;
+		};
+		D43B4C59231AD2670071DBF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3A4J433MF;
+				INFOPLIST_FILE = FasionCloudTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vab.dev.FasionCloudTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FasionCloudTest;
+			};
+			name = Debug;
+		};
+		D43B4C5A231AD2670071DBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3A4J433MF;
+				INFOPLIST_FILE = FasionCloudTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vab.dev.FasionCloudTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FasionCloudTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43B4C25231AD2640071DBF2 /* Build configuration list for PBXProject "FasionCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43B4C50231AD2670071DBF2 /* Debug */,
+				D43B4C51231AD2670071DBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43B4C52231AD2670071DBF2 /* Build configuration list for PBXNativeTarget "FasionCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43B4C53231AD2670071DBF2 /* Debug */,
+				D43B4C54231AD2670071DBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43B4C55231AD2670071DBF2 /* Build configuration list for PBXNativeTarget "FasionCloudTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43B4C56231AD2670071DBF2 /* Debug */,
+				D43B4C57231AD2670071DBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43B4C58231AD2670071DBF2 /* Build configuration list for PBXNativeTarget "FasionCloudTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43B4C59231AD2670071DBF2 /* Debug */,
+				D43B4C5A231AD2670071DBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43B4C22231AD2640071DBF2 /* Project object */;
+}
