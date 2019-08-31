@@ -115,7 +115,7 @@ class ViewController: UIViewController {
             varients.append(article)
         }
         let uniqueSourceKeyArray = Set.init(articleKeys)
-        print(uniqueSourceKeyArray)
+
         for obj in uniqueSourceKeyArray {
             let dict = (varients).filter({$0["article_number"] as! String == obj })
             dictTemp.updateValue(dict, forKey: ("article_number: " + obj))
